@@ -6,6 +6,5 @@ public interface IPagination<T> {
     T next();
     T prev();
     T goTo(int id);
-    void display(int id);
     void exit();
 }

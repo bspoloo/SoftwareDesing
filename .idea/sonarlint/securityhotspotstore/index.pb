@@ -1,12 +1,8 @@
 
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
-e
-5src/main/java/bspo/SoftwareDesing/Exercise1/Trip.java,0\c\0c0cb8ebe011d1c888f4a070d691ea8fe956245e
 f
 6src/main/java/bspo/SoftwareDesing/Exercise1/Drone.java,a\9\a9a20268a312256030d3639c5ddbabcd9ab37ed9
-[
-+src/main/java/bspo/SoftwareDesing/Main.java,4\7\472b289bdced1c811cfe1f006773e1fdb8a1c536
 h
 8src/main/java/bspo/SoftwareDesing/Exercise1/Manager.java,1\3\13e0240ff6a5ecd281eeb43fd8ca5c528279c458
 i
@@ -25,3 +21,17 @@ n
 >src/main/java/bspo/SoftwareDesing/Exercise2/ParseInterval.java,d\5\d5d515d30be4bd7f4deaddb386b6ee02ae4c41d1
 e
 5src/main/java/bspo/SoftwareDesing/Exercise2/Main.java,a\2\a2c2cceabe30dd2b6991c94b01456ae572f63c83
+l
+<src/main/java/bspo/SoftwareDesing/Exercise3/IPagination.java,2\4\248679d01b9cf808730aec22d0fa865e5da4d5b6
+l
+<src/main/java/bspo/SoftwareDesing/Exercise3/ItemObjects.java,2\a\2a3f35888d2d375fe91bfb0b23912c1aefac0ca6
+e
+5src/main/java/bspo/SoftwareDesing/Exercise3/Page.java,9\2\925f7f61529374a600e3d6c352fe7a9218f4b4fe
+e
+5src/main/java/bspo/SoftwareDesing/Exercise3/Book.java,7\d\7de02eb72a3511e3a99627be9cb2d88a4bece9ec
+e
+5src/main/java/bspo/SoftwareDesing/Exercise3/Main.java,1\9\19d48225a99bf846887418b65bab6822ddce6f8e
+h
+8src/main/java/bspo/SoftwareDesing/Exercise3/BookRun.java,3\b\3b6a3c3fb4c985fd5e9f17d11dcdd5a913133059
+h
+8src/main/java/bspo/SoftwareDesing/Exercise3/IRunner.java,c\7\c7dbd1da6caaf951293b8f5cc98cd1584fc7f619

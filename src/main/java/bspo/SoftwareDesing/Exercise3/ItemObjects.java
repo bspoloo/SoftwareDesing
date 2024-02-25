@@ -4,8 +4,8 @@ public class ItemObjects {
 
     private int id;
     private String name;
-    private Float price;
-    public ItemObjects(int id, String name, Float price){
+    private int price;
+    public ItemObjects(int id, String name, int price){
         this.id = id;
         this.name = name;
         this.price = price;
@@ -26,11 +26,11 @@ public class ItemObjects {
         this.name = name;
     }
 
-    public Float getPrice() {
+    public int getPrice() {
         return price;
     }
 
-    public void setPrice(Float price) {
+    public void setPrice(int price) {
         this.price = price;
     }
 
