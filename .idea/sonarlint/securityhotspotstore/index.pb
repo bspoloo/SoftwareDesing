@@ -37,3 +37,9 @@ h
 8src/main/java/bspo/SoftwareDesing/Exercise3/IRunner.java,c\7\c7dbd1da6caaf951293b8f5cc98cd1584fc7f619
 Q
 !src/test/java/PaginationTest.java,a\8\a853d75ce7e73587afbd254fbb0c5858d4830bda
+f
+6src/main/java/bspo/SoftwareDesing/Exercise1/Trips.java,c\4\c4376ef50ae058fb3d21c92452e7b809cf83761c
+e
+5src/main/java/bspo/SoftwareDesing/Exercise1/Trip.java,0\c\0c0cb8ebe011d1c888f4a070d691ea8fe956245e
+O
+src/test/java/DeliveryTest.java,b\e\be6772dbe2db1ef751ee7a9d1b0af1b7afeeb5fd
