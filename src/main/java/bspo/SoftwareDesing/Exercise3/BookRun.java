@@ -12,13 +12,16 @@ public class BookRun implements IRunner{
         System.out.println("I'm a new book");
         System.out.println("################################################");
 
+        System.out.println("Enter the limit for each Item: ");
+        int numberItem = Integer.parseInt(scanner.nextLine());
+
         pagination = new Book();
 
         // pages building
-        Page page1 = new Page(3);
-        Page page2 = new Page(3);
-        Page page3 = new Page(3);
-        Page page4 = new Page(3);
+        Page page1 = new Page(numberItem);
+        Page page2 = new Page(numberItem);
+        Page page3 = new Page(numberItem);
+        Page page4 = new Page(numberItem);
 
         //adding the Items to each page
         page1.add(new ItemObjects(1,"Item 1 of page 1", 56));
@@ -75,7 +78,11 @@ public class BookRun implements IRunner{
                     menu();
                 }
                 first.print();
-                menu();
+                int optionPage1 = first.menu();
+                while (optionPage1 == 0){
+                    menu();
+                }
+                break;
             case "B":
 
                 Page last = pagination.last();
@@ -86,7 +93,11 @@ public class BookRun implements IRunner{
                 }
 
                 last.print();
-                menu();
+                int optionPage2 = last.menu();
+                while (optionPage2 == 0){
+                    menu();
+                }
+                break;
             case "C":
                 Page next = pagination.next();
 
@@ -96,7 +107,10 @@ public class BookRun implements IRunner{
                 }
 
                 next.print();
-                menu();
+                int optionPage3 = next.menu();
+                while (optionPage3 == 0){
+                    menu();
+                }
                 break;
             case "D":
                 Page prev = pagination.prev();
@@ -107,7 +121,10 @@ public class BookRun implements IRunner{
                 }
 
                 prev.print();
-                menu();
+                int optionPage4 = prev.menu();
+                while (optionPage4 == 0){
+                    menu();
+                }
                 break;
             case "E":
                 System.out.println("Enter the position: ");
@@ -121,7 +138,10 @@ public class BookRun implements IRunner{
                 }
 
                 goTo.print();
-                menu();
+                int optionPage5 = goTo.menu();
+                while (optionPage5 == 0){
+                    menu();
+                }
                 break;
             case "F":
                 pagination.exit();

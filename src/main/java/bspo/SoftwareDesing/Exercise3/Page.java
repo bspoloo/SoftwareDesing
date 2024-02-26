@@ -2,6 +2,7 @@ package bspo.SoftwareDesing.Exercise3;
 
 import java.util.Iterator;
 import java.util.LinkedList;
+import java.util.Scanner;
 
 /**
  * Page Class
@@ -10,6 +11,7 @@ import java.util.LinkedList;
  */
 public class Page {
 
+    Scanner scanner = new Scanner(System.in);
     /**
      * List of items on the page.
      */
@@ -46,6 +48,7 @@ public class Page {
         } else {
             count++;
             listItem.add(item);
+            System.out.println("Item "+item.getName()+" was added correctly...");
         }
     }
 
@@ -69,5 +72,37 @@ public class Page {
     public void setSize(int size) {
         this.size = size;
     }
+    public int menu(){
+        System.out.println("###############");
+        System.out.println("# A.- Add     #");
+        System.out.println("# B.- Exit    #");
+        System.out.println("###############");
+
+        String userInput = scanner.nextLine();
+
+        if (userInput.equals("A")){
+            System.out.println("Enter the new Item please");
+            System.out.println("Enter the ID of Item");
+            int id = Integer.parseInt(scanner.nextLine());
+
+            System.out.println("Enter the Name of Item");
+            String name = scanner.nextLine();
+
+
+            System.out.println("Enter the Price of Item");
+            int price = Integer.parseInt(scanner.nextLine());
+
+            ItemObjects newItem = new ItemObjects(id, name, price);
+
+            add(newItem);
+
+            return 0;
+
+        } else if (userInput.equals("B")) {
+            return 0;
+        }
+        return 0;
+    }
+
 }
 

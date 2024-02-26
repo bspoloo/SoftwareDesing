@@ -3,8 +3,6 @@
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 f
 6src/main/java/bspo/SoftwareDesing/Exercise1/Drone.java,a\9\a9a20268a312256030d3639c5ddbabcd9ab37ed9
-h
-8src/main/java/bspo/SoftwareDesing/Exercise1/Manager.java,1\3\13e0240ff6a5ecd281eeb43fd8ca5c528279c458
 i
 9src/main/java/bspo/SoftwareDesing/Exercise1/Location.java,7\e\7e5b3ad01459d6c2297e9e0356f9e371a17db499
 i
@@ -37,8 +35,6 @@ h
 8src/main/java/bspo/SoftwareDesing/Exercise3/IRunner.java,c\7\c7dbd1da6caaf951293b8f5cc98cd1584fc7f619
 Q
 !src/test/java/PaginationTest.java,a\8\a853d75ce7e73587afbd254fbb0c5858d4830bda
-f
-6src/main/java/bspo/SoftwareDesing/Exercise1/Trips.java,c\4\c4376ef50ae058fb3d21c92452e7b809cf83761c
 e
 5src/main/java/bspo/SoftwareDesing/Exercise1/Trip.java,0\c\0c0cb8ebe011d1c888f4a070d691ea8fe956245e
 O
