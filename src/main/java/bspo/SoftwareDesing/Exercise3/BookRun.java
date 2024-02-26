@@ -20,6 +20,7 @@ public class BookRun implements IRunner{
         Page page3 = new Page(3);
         Page page4 = new Page(3);
 
+        //adding the Items to each page
         page1.add(new ItemObjects(1,"Item 1 of page 1", 56));
         page1.add(new ItemObjects(2,"Item 2 of page 1", 56));
         page1.add(new ItemObjects(3,"Item 3 of page 1", 56));
@@ -37,7 +38,7 @@ public class BookRun implements IRunner{
         page4.add(new ItemObjects(11,"Item 2 of page 4", 99));
         page4.add(new ItemObjects(12,"Item 3 of page 4", 99));
 
-
+        //adding each page to Pagination
         pagination.pageList.add(page1);
         pagination.pageList.add(page2);
         pagination.pageList.add(page3);
@@ -131,7 +132,15 @@ public class BookRun implements IRunner{
                 break;
         }
     }
-    private boolean isNull(Page page){
+
+    /**
+     * Verifies if a Page object is null.
+     *
+     * @param page The Page object to be checked for null.
+     * @return true if the Page object is null, false otherwise.
+     */
+    private boolean isNull(Page page) {
         return page == null;
     }
+
 }

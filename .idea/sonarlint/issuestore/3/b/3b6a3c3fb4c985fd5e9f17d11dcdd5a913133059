@@ -2,22 +2,22 @@
 {	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¶Ï¸‘øÿÿÿÿ8ù³É•Ş1
 L	java:S106"+Replace this use of System.out by a logger.(¬Æ“ºşÿÿÿÿ8†´É•Ş1
 L	java:S106"+Replace this use of System.out by a logger.(Û›Í‰ùÿÿÿÿ8†´É•Ş1
-G	java:S1064"+Replace this use of System.out by a logger.(œÖéÈ8ˆ´É•Ş1
-G	java:S1066"+Replace this use of System.out by a logger.(±äÀŠ8ˆ´É•Ş1
-L	java:S1067"+Replace this use of System.out by a logger.(Ò€ÔÌÿÿÿÿÿ8ˆ´É•Ş1
-G	java:S1068"+Replace this use of System.out by a logger.(ÂèŞÊ8ˆ´É•Ş1
-G	java:S1069"+Replace this use of System.out by a logger.(Ë×Èõ8ˆ´É•Ş1
-L	java:S106:"+Replace this use of System.out by a logger.(ª³ù±ÿÿÿÿÿ8‰´É•Ş1
-G	java:S106;"+Replace this use of System.out by a logger.(ê’³³8‰´É•Ş1
-G	java:S106="+Replace this use of System.out by a logger.(œÖéÈ8‰´É•Ş1
-h	java:S128N"LEnd this switch case with an unconditional break, return or throw statement.(´ÄËê8Š´É•Ş1
-m	java:S128F"LEnd this switch case with an unconditional break, return or throw statement.(äà³µùÿÿÿÿ8Š´É•Ş1
-L	java:S106I"+Replace this use of System.out by a logger.(Í„Êîÿÿÿÿÿ8Š´É•Ş1
-L	java:S106S"+Replace this use of System.out by a logger.(Í„Êîÿÿÿÿÿ8‹´É•Ş1
-G	java:S106]"+Replace this use of System.out by a logger.(²ö¿ş8‹´É•Ş1
-G	java:S106h"+Replace this use of System.out by a logger.(£ªôå8Œ´É•Ş1
-G	java:S106p"+Replace this use of System.out by a logger.(’àõá8Œ´É•Ş1
-L	java:S106v"+Replace this use of System.out by a logger.(ˆ†¨ûÿÿÿÿ8Œ´É•Ş1
-G	java:S106"+Replace this use of System.out by a logger.(ñŠ¢18´É•Ş1
+G	java:S1065"+Replace this use of System.out by a logger.(œÖéÈ8ˆ´É•Ş1
+G	java:S1067"+Replace this use of System.out by a logger.(±äÀŠ8ˆ´É•Ş1
+L	java:S1068"+Replace this use of System.out by a logger.(Ò€ÔÌÿÿÿÿÿ8ˆ´É•Ş1
+G	java:S1069"+Replace this use of System.out by a logger.(ÂèŞÊ8ˆ´É•Ş1
+G	java:S106:"+Replace this use of System.out by a logger.(Ë×Èõ8ˆ´É•Ş1
+L	java:S106;"+Replace this use of System.out by a logger.(ª³ù±ÿÿÿÿÿ8‰´É•Ş1
+G	java:S106<"+Replace this use of System.out by a logger.(ê’³³8‰´É•Ş1
+G	java:S106>"+Replace this use of System.out by a logger.(œÖéÈ8‰´É•Ş1
+h	java:S128O"LEnd this switch case with an unconditional break, return or throw statement.(´ÄËê8Š´É•Ş1
+m	java:S128G"LEnd this switch case with an unconditional break, return or throw statement.(äà³µùÿÿÿÿ8Š´É•Ş1
+L	java:S106J"+Replace this use of System.out by a logger.(Í„Êîÿÿÿÿÿ8Š´É•Ş1
+L	java:S106T"+Replace this use of System.out by a logger.(Í„Êîÿÿÿÿÿ8‹´É•Ş1
+G	java:S106^"+Replace this use of System.out by a logger.(²ö¿ş8‹´É•Ş1
+G	java:S106i"+Replace this use of System.out by a logger.(£ªôå8Œ´É•Ş1
+G	java:S106q"+Replace this use of System.out by a logger.(’àõá8Œ´É•Ş1
+L	java:S106w"+Replace this use of System.out by a logger.(ˆ†¨ûÿÿÿÿ8Œ´É•Ş1
+G	java:S106‚"+Replace this use of System.out by a logger.(ñŠ¢18´É•Ş1
 M
 java:S1128"1Remove this unused import 'java.util.LinkedList'.(»Äğ18¸ë•Ş1
