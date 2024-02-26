@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Trip {
 
-    public void managerTrip(List<Drone> drones, List<Location> locations){
+    public void managerTrip(List<Drone> drones, List<Location> locations) {
 
         drones.sort(Comparator.comparingInt(Drone::getMaxWeight).reversed());
         locations.sort(Comparator.comparingInt(Location::getPackWeight));
@@ -15,12 +15,7 @@ public class Trip {
 
             for (Location location : locations) {
 
-                if (drone.getMaxWeight() >= location.getPackWeight()) {
-                    drone.setMaxWeight(drone.getMaxWeight() - location.getPackWeight());
-
-                    locationsToAdd.add(location);
-                    //drone.addLocation(locations.remove(j));
-                }
+                calculate(drone,location,locationsToAdd);
             }
 
             drone.trips = locationsToAdd;
@@ -28,7 +23,22 @@ public class Trip {
         }
         printTrips(drones);
     }
-    public void printTrips(List<Drone> drones){
+
+    private void calculate(Drone drone, Location location, List<Location> locationsToAdd) {
+
+        if (drone.getMaxWeight() >= location.getPackWeight()) {
+
+            drone.setMaxWeight(drone.getMaxWeight() - location.getPackWeight());
+            locationsToAdd.add(location);
+
+        } else {
+            drone.recharge(drone.getMaxWeight() - location.getPackWeight());
+            //calculate(drone, location, locationsToAdd);
+        }
+
+
+    }
+    public void printTrips(List<Drone> drones) {
         for (Drone drone : drones) {
             System.out.println("Name: " + drone.getName());
 

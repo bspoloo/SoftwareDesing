@@ -14,7 +14,7 @@ public class Main {
         Trip managerTrip = new Trip();
 
         Drone drone1 = new Drone("Drone 1", 60);
-        Drone drone2 = new Drone("Drone 2", 70);
+        Drone drone2 = new Drone("Drone 2", 20);
         Drone drone3 = new Drone("Drone 3", 80);
 
         Location location1 = new Location("Location 1", 10);

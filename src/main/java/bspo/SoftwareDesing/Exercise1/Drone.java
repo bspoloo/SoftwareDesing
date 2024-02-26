@@ -28,5 +28,17 @@ public class Drone {
     public void setMaxWeight(int maxWeight) {
         this.maxWeight = maxWeight;
     }
+    public void recharge(int weight){
+        if (weight < 0){
+            maxWeight = Math.abs(weight);
+            System.out.println(name+" recharged "+maxWeight+" of weight");
+
+        }else {
+            System.out.println("The max weight was exceeded for "+name);
+
+        }
+
+
+    }
 
 }
