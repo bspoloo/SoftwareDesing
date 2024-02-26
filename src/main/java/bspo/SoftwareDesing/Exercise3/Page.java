@@ -4,6 +4,7 @@ import java.util.Iterator;
 import java.util.LinkedList;
 
 public class Page {
+
     LinkedList<ItemObjects> listItem = new LinkedList<>();
 
     private int size;
@@ -13,7 +14,7 @@ public class Page {
         this.size = size;
     }
 
-    void add(ItemObjects item) {
+    public void add(ItemObjects item) {
         if (count == size) {
             System.out.println("List is full");
         }else{
@@ -23,7 +24,7 @@ public class Page {
 
     }
 
-    void print() {
+    public void print() {
 
         Iterator<ItemObjects> iterator = listItem.iterator();
 

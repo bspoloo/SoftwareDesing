@@ -1,14 +1,16 @@
 package bspo.SoftwareDesing.Exercise3;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
 public class Book implements IPagination{
-    List<Page> pageList;
+    public List<Page> pageList;
     int position;
-    public Book(List<Page> page){
+    public Book(){
         this.position = 0;
-        this.pageList = page;
+        this.pageList = new ArrayList<>(){
+        };
     }
     @Override
     public Page first() {
@@ -26,6 +28,7 @@ public class Book implements IPagination{
     public Page next() {
 
         if (isLast()){
+            position = pageList.size();
             return null;
         }
         position++;
@@ -36,6 +39,7 @@ public class Book implements IPagination{
     public Page prev() {
 
         if (isFirst()){
+            position = -1;
             return null;
         }
         position--;
@@ -44,6 +48,7 @@ public class Book implements IPagination{
 
     @Override
     public Page goTo(int id) {
+        id--;
         if (id <= 0 || id > pageList.size()){
             return null;
         }
@@ -56,9 +61,9 @@ public class Book implements IPagination{
         System.exit(0);
     }
     private boolean isLast(){
-        return position == pageList.size();
+        return position >= pageList.size()-1;
     }
     private boolean isFirst(){
-        return position == 0;
+        return position <= 0;
     }
 }

@@ -5,7 +5,6 @@ import java.util.LinkedList;
 import java.util.Scanner;
 
 public class BookRun implements IRunner{
-    LinkedList<Page> listPages = new LinkedList<>();
     Book pagination;
     Scanner scanner = new Scanner(System.in);
     @Override
@@ -13,6 +12,7 @@ public class BookRun implements IRunner{
         System.out.println("I'm a new book");
         System.out.println("################################################");
 
+        pagination = new Book();
 
         // pages building
         Page page1 = new Page(3);
@@ -37,12 +37,12 @@ public class BookRun implements IRunner{
         page4.add(new ItemObjects(11,"Item 2 of page 4", 99));
         page4.add(new ItemObjects(12,"Item 3 of page 4", 99));
 
-        listPages.add(page1);
-        listPages.add(page2);
-        listPages.add(page3);
-        listPages.add(page4);
 
-        pagination = new Book(listPages);
+        pagination.pageList.add(page1);
+        pagination.pageList.add(page2);
+        pagination.pageList.add(page3);
+        pagination.pageList.add(page4);
+
         menu();
 
     }
@@ -112,7 +112,7 @@ public class BookRun implements IRunner{
                 System.out.println("Enter the position: ");
                 int userInput = Integer.parseInt(scanner.nextLine());
 
-                Page goTo = pagination.goTo(userInput-1);
+                Page goTo = pagination.goTo(userInput);
 
                 if (isNull(goTo)){
                     System.out.println("That's page don't exist...");
