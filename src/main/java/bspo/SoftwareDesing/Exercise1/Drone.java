@@ -37,8 +37,6 @@ public class Drone {
             System.out.println("The max weight was exceeded for "+name);
 
         }
-
-
     }
 
 }

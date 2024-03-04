@@ -15,7 +15,7 @@ public class Trip {
 
             for (Location location : locations) {
 
-                calculate(drone,location,locationsToAdd);
+                calculate(drone, location, locationsToAdd);
             }
 
             drone.trips = locationsToAdd;
@@ -38,6 +38,7 @@ public class Trip {
 
 
     }
+
     public void printTrips(List<Drone> drones) {
         for (Drone drone : drones) {
             System.out.println("Name: " + drone.getName());

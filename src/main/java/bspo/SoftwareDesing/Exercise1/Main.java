@@ -3,9 +3,6 @@ package bspo.SoftwareDesing.Exercise1;
 
 import java.util.ArrayList;
 import java.util.List;
-
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     static List<Location> locations = new ArrayList<>();
     static List<Drone> drones = new ArrayList<>();
@@ -23,7 +20,6 @@ public class Main {
         Location location4 = new Location("Location 4", 40);
         Location location5 = new Location("Location 5", 50);
 
-
         drones.add(drone1);
         drones.add(drone2);
         drones.add(drone3);
@@ -33,7 +29,6 @@ public class Main {
         locations.add(location3);
         locations.add(location4);
         locations.add(location5);
-
 
         managerTrip.managerTrip(drones, locations);
     }
