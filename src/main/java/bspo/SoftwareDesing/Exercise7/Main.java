@@ -11,23 +11,26 @@ public class Main {
     static ArrayList<Student> students = new ArrayList<>();
 
     public static void main(String[] args) {
-
-
-        createStudents();
-
+        System.out.println("Escoja su orden");
         Scanner s = new Scanner(System.in);
-        ICommandExecutor<String> executor = CommandExecutorFactory.<String>get();
-
         ISorter sorter = null;
         String cmd = s.nextLine();
+
+        ICommandExecutor<String> executor = CommandExecutorFactory.<String>get();
+        createStudents();
 
         switch (cmd) {
             case "Nombres":
                 sorter = new SorterName();
+                System.out.println("Por Nombres");
             case "Edades":
                 sorter = new SorterAge();
+                System.out.println("Por Edades");
+
             case "grado":
                 sorter = new SortGrade();
+                System.out.println("Por Grados");
+
         }
 
         while (true) {
