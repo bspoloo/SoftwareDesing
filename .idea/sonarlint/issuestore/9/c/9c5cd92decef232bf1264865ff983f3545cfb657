@@ -1,0 +1,9 @@
+
+’
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ÿ¹Ì ÿÿÿÿÿ8Øü“Òâ1
+Š
+java:S1319"hThe type of "commands" should be an interface such as "List" rather than the implementation "ArrayList".(ÿ¹Ì ÿÿÿÿÿ8Øü“Òâ1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¤‚Çºÿÿÿÿÿ8Ùü“Òâ1
+¶
+java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(ŒıĞß8„ê”Óâ1
+G	java:S106("+Replace this use of System.out by a logger.(„ë8ãü“Òâ1

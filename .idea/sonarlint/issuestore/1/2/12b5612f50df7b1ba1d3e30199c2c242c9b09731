@@ -1,13 +1,17 @@
 
 {	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(®øº¼ûÿÿÿÿ8¥ÿëÖá1
 D
-java:S2189!""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ8àùïÖá1
+java:S2189$""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ8àùïÖá1
 \
-java:S1854":Remove this useless assignment to local variable "sorter".(°È¿şÿÿÿÿ8©ÿëÖá1
+java:S1854":Remove this useless assignment to local variable "sorter".(°È¿şÿÿÿÿ8ä·àÎâ1
 V
-java:S1854":Remove this useless assignment to local variable "sorter".(Ğ¡Àt8©ÿëÖá1
-h	java:S128"LEnd this switch case with an unconditional break, return or throw statement.(Ñùö¾8¬ÿëÖá1
-m	java:S128"LEnd this switch case with an unconditional break, return or throw statement.(ËÌÍ€üÿÿÿÿ8¬ÿëÖá1
-C	java:S131""Add a default case to this switch.(Ï—íàıÿÿÿÿ8¬ÿëÖá1
+java:S1854":Remove this useless assignment to local variable "sorter".(Ğ¡Àt8ä·àÎâ1
+G	java:S106"+Replace this use of System.out by a logger.(å¢¨Û8å·àÎâ1
+h	java:S128"LEnd this switch case with an unconditional break, return or throw statement.(Ñùö¾8ê·àÎâ1
+m	java:S128"LEnd this switch case with an unconditional break, return or throw statement.(ËÌÍ€üÿÿÿÿ8ê·àÎâ1
+C	java:S131""Add a default case to this switch.(Ï—íàıÿÿÿÿ8ê·àÎâ1
+G	java:S106"+Replace this use of System.out by a logger.(•ØÀÈ8ë·àÎâ1
+G	java:S106"+Replace this use of System.out by a logger.(Üåç·8ì·àÎâ1
+G	java:S106 "+Replace this use of System.out by a logger.(ÍŞ÷¿8í·àÎâ1
 M
 java:S1128"1Remove this unused import 'java.util.LinkedList'.(»Äğ18èùïÖá1
