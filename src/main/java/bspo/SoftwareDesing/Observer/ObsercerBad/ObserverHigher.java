@@ -18,6 +18,6 @@ public class ObserverHigher {
 
         }
 
-        System.out.println("El mayor es "+ higher);
+        System.out.println("the largest number is "+ higher);
     }
 }

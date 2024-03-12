@@ -28,7 +28,7 @@ public class Numbers {
             obs.update();
         }
     }
-    public void Attach(IObserver observer)
+    public void attach(IObserver observer)
     {
         observers.add(observer);
     }
