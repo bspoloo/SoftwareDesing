@@ -1,5 +1,5 @@
-package bspo.SoftwareDesing.Paterns.Comparers;
-import bspo.SoftwareDesing.Paterns.Student;
+package bspo.SoftwareDesing.PaternsFactoryAndSingleton.Comparers;
+import bspo.SoftwareDesing.PaternsFactoryAndSingleton.Student;
 
 public class ComparerByAge implements IComparer{
     @Override

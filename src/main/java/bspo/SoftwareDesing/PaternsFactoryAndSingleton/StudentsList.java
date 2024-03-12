@@ -1,4 +1,4 @@
-package bspo.SoftwareDesing.Paterns;
+package bspo.SoftwareDesing.PaternsFactoryAndSingleton;
 
 import java.util.ArrayList;
 

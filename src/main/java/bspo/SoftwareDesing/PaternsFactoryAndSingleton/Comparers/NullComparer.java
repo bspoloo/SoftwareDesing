@@ -1,6 +1,6 @@
-package bspo.SoftwareDesing.Paterns.Comparers;
+package bspo.SoftwareDesing.PaternsFactoryAndSingleton.Comparers;
 
-import bspo.SoftwareDesing.Paterns.Student;
+import bspo.SoftwareDesing.PaternsFactoryAndSingleton.Student;
 
 public class NullComparer implements IComparer{
     @Override

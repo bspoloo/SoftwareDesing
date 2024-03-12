@@ -1,6 +1,6 @@
-package bspo.SoftwareDesing.Paterns;
+package bspo.SoftwareDesing.PaternsFactoryAndSingleton;
 
-import bspo.SoftwareDesing.Paterns.Comparers.*;
+import bspo.SoftwareDesing.PaternsFactoryAndSingleton.Comparers.*;
 
 import java.util.ArrayList;
 

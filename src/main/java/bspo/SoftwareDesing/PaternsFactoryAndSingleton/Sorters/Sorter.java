@@ -1,7 +1,7 @@
-package bspo.SoftwareDesing.Paterns.Sorters;
+package bspo.SoftwareDesing.PaternsFactoryAndSingleton.Sorters;
 
-import bspo.SoftwareDesing.Paterns.Comparers.IComparer;
-import bspo.SoftwareDesing.Paterns.Student;
+import bspo.SoftwareDesing.PaternsFactoryAndSingleton.Comparers.IComparer;
+import bspo.SoftwareDesing.PaternsFactoryAndSingleton.Student;
 import java.util.ArrayList;
 
 public class Sorter implements ISorter {

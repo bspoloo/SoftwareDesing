@@ -1,4 +1,4 @@
-package bspo.SoftwareDesing.Paterns;
+package bspo.SoftwareDesing.PaternsFactoryAndSingleton;
 
 public class Student {
 

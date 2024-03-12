@@ -1,9 +1,9 @@
-package bspo.SoftwareDesing.Paterns;
+package bspo.SoftwareDesing.PaternsFactoryAndSingleton;
 
 
-import bspo.SoftwareDesing.Paterns.Comparers.IComparer;
-import bspo.SoftwareDesing.Paterns.Sorters.ISorter;
-import bspo.SoftwareDesing.Paterns.Sorters.Sorter;
+import bspo.SoftwareDesing.PaternsFactoryAndSingleton.Comparers.IComparer;
+import bspo.SoftwareDesing.PaternsFactoryAndSingleton.Sorters.ISorter;
+import bspo.SoftwareDesing.PaternsFactoryAndSingleton.Sorters.Sorter;
 
 import java.util.ArrayList;
 import java.util.Scanner;
