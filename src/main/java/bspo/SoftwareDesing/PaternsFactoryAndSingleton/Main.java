@@ -20,8 +20,7 @@ public class Main {
         System.out.print("Please type the command to sorter the students: ");
         String command = scanner.nextLine();
 
-        ArrayList<String> commands = commandToList(command);
-        ArrayList<IComparer>comparers = factoryMethod.createListCompares(commands);
+        ArrayList<IComparer>comparers = factoryMethod.createListCompares(commandToList(command));
 
         ISorter sorter = new Sorter(comparers);
         //We send the list that we want to order
