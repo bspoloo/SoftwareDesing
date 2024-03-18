@@ -19,7 +19,7 @@ public class ReaderDocument {
         this.arrays = new char[rows][columns];
     }
 
-    public void readDocument() {
+    public char[][] readDocument() {
         try {
             fileReader = new FileReader(this.path);
             bufferedReader = new BufferedReader(fileReader);
@@ -40,8 +40,11 @@ public class ReaderDocument {
             bufferedReader.close();
             printArray();
 
+            return arrays;
+
         } catch (IOException e) {
             System.out.println("Error al leer el archivo: " + e.getMessage());
+            return null;
         }
     }
 
