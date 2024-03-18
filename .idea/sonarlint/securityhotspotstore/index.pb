@@ -109,3 +109,11 @@ g
 7src/main/java/bspo/SoftwareDesing/ReadSquares/Main.java,0\5\0519febc60c4c9112b6e613d1c97a7e2a319b48a
 g
 7src/main/java/bspo/SoftwareDesing/ReadSquares/Side.java,b\3\b3ff0b029fed9901a382a32802589f7dd01ed8b3
+h
+8src/main/java/bspo/SoftwareDesing/ReadFrames/Reader.java,9\6\96c1ba5b63f15a4fe999885bf3191468b78a63cc
+f
+6src/main/java/bspo/SoftwareDesing/ReadFrames/Main.java,4\1\4128c93cd4022075f27f6c42f746640325210784
+p
+@src/main/java/bspo/SoftwareDesing/ReadFrames/ReaderDocument.java,8\7\870044a935d0ce0bece5458cdd5d266775965116
+g
+7src/main/java/bspo/SoftwareDesing/ReadFrames/Frame.java,4\3\43276608403dc06ce01a177588c0a261b5bce9bf

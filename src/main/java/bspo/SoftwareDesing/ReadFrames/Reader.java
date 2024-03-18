@@ -1,8 +1,9 @@
-package bspo.SoftwareDesing.ReadSquares;
+package bspo.SoftwareDesing.ReadFrames;
 
 import java.util.List;
 
 public class Reader {
+
     private char[][] screen;
     public Reader(char[][] screen) {
         this.screen = screen;
@@ -13,7 +14,7 @@ public class Reader {
         for (int i = 0; i < 20; i++) {
             for (int j = 0; j < 50; j++) {
 
-                if (screen[i][j] == '┌') {
+                if (screen[i][j] == '┌' ) {
                     frames.add(findFrame(i, j));
                 }
             }

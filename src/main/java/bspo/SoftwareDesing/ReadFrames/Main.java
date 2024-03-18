@@ -1,4 +1,4 @@
-package bspo.SoftwareDesing.ReadSquares;
+package bspo.SoftwareDesing.ReadFrames;
 
 import java.util.ArrayList;
 import java.util.List;

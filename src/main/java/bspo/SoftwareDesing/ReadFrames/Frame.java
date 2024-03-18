@@ -1,7 +1,4 @@
-package bspo.SoftwareDesing.ReadSquares;
-
-import java.util.ArrayList;
-import java.util.List;
+package bspo.SoftwareDesing.ReadFrames;
 
 public class Frame {
     int x, y, side;

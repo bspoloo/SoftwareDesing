@@ -1,4 +1,4 @@
-package bspo.SoftwareDesing.ReadSquares;
+package bspo.SoftwareDesing.ReadFrames;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
