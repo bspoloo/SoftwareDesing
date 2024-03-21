@@ -1,0 +1,17 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(£›©­
+[
+java:S3516G"9Refactor this method to not always return the same value.(×Ÿ¸ûÿÿÿÿ8Óô­ıå1
+G	java:S106+"+Replace this use of System.out by a logger.(ƒ”†ó8ìğ©üå1
+L	java:S106/"+Replace this use of System.out by a logger.(Û»ØÀÿÿÿÿÿ8ìğ©üå1
+G	java:S106;"+Replace this use of System.out by a logger.(äçá8íğ©üå1
+G	java:S106H"+Replace this use of System.out by a logger.(¿Å¥í8îğ©üå1
+L	java:S106I"+Replace this use of System.out by a logger.(ç¾­Øüÿÿÿÿ8îğ©üå1
+L	java:S106J"+Replace this use of System.out by a logger.(‚¯ˆàúÿÿÿÿ8îğ©üå1
+G	java:S106K"+Replace this use of System.out by a logger.(¿Å¥í8îğ©üå1
+G	java:S106P"+Replace this use of System.out by a logger.(ğĞÙ•8ïğ©üå1
+G	java:S106Q"+Replace this use of System.out by a logger.(Òš…â8ïğ©üå1
+L	java:S106T"+Replace this use of System.out by a logger.(ÉˆËôûÿÿÿÿ8ïğ©üå1
+L	java:S106W"+Replace this use of System.out by a logger.(·ö‚Ÿşÿÿÿÿ8ïğ©üå1
+q
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(¢™—Œ8Üô­ıå1

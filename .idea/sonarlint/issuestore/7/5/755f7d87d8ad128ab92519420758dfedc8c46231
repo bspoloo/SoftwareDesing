@@ -1,0 +1,8 @@
+
+{
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ô¢¬ßıÿÿÿÿ8”áüå1
+|
+java:S1104	"ZMake invalidCommand a static final constant or non-public and provide accessors if needed.(Ş¯ûåıÿÿÿÿ8¶º’üå1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(£›©­8”áüå1
+L	java:S106"+Replace this use of System.out by a logger.(ıÈ»üÿÿÿÿ8ıŠ”üå1
+L	java:S106"+Replace this use of System.out by a logger.(×İË£üÿÿÿÿ8½•üå1

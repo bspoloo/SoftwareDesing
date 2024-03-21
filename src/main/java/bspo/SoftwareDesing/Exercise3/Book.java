@@ -9,8 +9,7 @@ public class Book implements IPagination{
     int position;
     public Book(){
         this.position = 0;
-        this.pageList = new ArrayList<>(){
-        };
+        this.pageList = new ArrayList<>(){};
     }
     @Override
     public Page first() {

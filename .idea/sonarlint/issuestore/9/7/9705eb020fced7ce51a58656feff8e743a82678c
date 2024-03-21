@@ -1,0 +1,5 @@
+
+v
+java:S1104"TMake pageList a static final constant or non-public and provide accessors if needed.(É‡¸·øÿÿÿÿ8áÈ¤úå1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(£›©­8âÈ¤úå1
+L	java:S106?"+Replace this use of System.out by a logger.(î‡ó©ùÿÿÿÿ8 ´Àûå1

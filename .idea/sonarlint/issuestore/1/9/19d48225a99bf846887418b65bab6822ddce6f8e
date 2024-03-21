@@ -1,4 +1,6 @@
 
 {	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¶Ï¸‘øÿÿÿÿ8ïªÄ–Ş1
->
-java:S2189""Add an end condition to this loop.(¤èÄ78ƒôñÖá1
+R
+java:S1854"5Remove this useless assignment to local variable "s".(ÇñÚï8¼ÒÙıå1
+C
+java:S1481"&Remove this unused "s" local variable.(ÇñÚï8¿ÒÙıå1

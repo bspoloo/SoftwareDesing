@@ -3,5 +3,3 @@ t	java:S127"XRefactor the code in order to not assign to this loop counter fr
 v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‡á×ç8¥ÊŠ£Ý1
 L	java:S106
 "+Replace this use of System.out by a logger.(µÏ…èùÿÿÿÿ8è‚¢£Ý1
-F
-java:S5413")Verify that "remove()" is used correctly.(œ›ô“8ËÉ¢£Ý1

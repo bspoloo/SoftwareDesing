@@ -1,6 +1,7 @@
 
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(­ı‰«ÿÿÿÿÿ
-
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(öÙô¼8“³›ÿŞ1
-
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(®•Ìö8“³›ÿŞ1
+v
+java:S1104	"TMake pageList a static final constant or non-public and provide accessors if needed.(ê­ØÑûÿÿÿÿ8áÈ¤úå1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(­ı‰«ÿÿÿÿÿ8âÈ¤úå1
+L	java:S106A"+Replace this use of System.out by a logger.(î‡ó©ùÿÿÿÿ8 ´Àûå1
+\
+java:S1128"?Remove this unused import 'bspo.SoftwareDesing.Exercise3.Page'.(Ì‰¿8¡´Àûå1
