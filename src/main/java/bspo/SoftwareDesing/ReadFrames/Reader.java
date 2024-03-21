@@ -14,8 +14,9 @@ public class Reader {
         for (int i = 0; i < 20; i++) {
             for (int j = 0; j < 50; j++) {
 
-                if (screen[i][j] == '┌' ) {
+                if (screen[i][j] == '┌' || screen[i][j] == '└' || screen[i][j] == '┐' || screen[i][j] == '┘') {
                     frames.add(findFrame(i, j));
+                    System.out.println("esquina encontrada xd");
                 }
             }
         }

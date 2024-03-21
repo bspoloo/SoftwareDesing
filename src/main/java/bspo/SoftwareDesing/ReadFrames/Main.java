@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        String filePath = "F:\\acceso\\Formacion en Desarrollo de Software\\Temas\\Modulo 4\\Software Desing\\src\\main\\java\\bspo\\SoftwareDesing\\ReadSquares\\example - Ivan2.txt";
+        String filePath = "C:\\Software Developers\\SoftwareDesing\\src\\main\\java\\bspo\\SoftwareDesing\\ReadFrames\\example - Ivan2.txt";
         ReaderDocument readerDocument = new ReaderDocument(filePath);
 
         char[][] screen = readerDocument.readDocument();
